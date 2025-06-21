@@ -14,9 +14,6 @@ A modern, customizable web browser built with **Python** and **PyQt5**, inspired
 -  **Download Manager** — Manage file downloads with ease
 -  **Multiple Search Engines** — Google, Bing, DuckDuckGo
 
-## 🖼️ Screenshot
-
-![Custom Web Browser Screenshot](https://via.placeholder.com/1200x800.png?text=Add+Screenshot+Here)
 
 ## 📦 Installation
 
