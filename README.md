@@ -31,19 +31,12 @@ Custom Web Browser is designed to provide a **minimalist**, yet **feature-rich**
 - Python 3.x
 
 ###  Install Dependencies
-```bash
+
 pip install PyQt5 PyQtWebEngine SpeechRecognition PyAudio
 ▶ Run the Browser
-bash
-Copy
-Edit
 python main.py
 
  File Structure
-bash
-Copy
-Edit
-/
 ├── main.py          
 ├── history.json     
 ├── bookmarks.json   
