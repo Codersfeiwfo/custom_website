@@ -1,54 +1,61 @@
 # 🌐 Custom Web Browser
 
-A modern, customizable web browser built with **Python** and **PyQt5**, inspired by **Samsung One UI 7** aesthetics.
+A custom web browser built using **PyQt5** and **Qt WebEngine**, providing essential browsing features along with additional functionality like **Incognito Mode**, **Custom Search Engines**, **Dark Mode**, and a **Download Manager**.
 
-## 🚀 Features
+---
 
--  **Tabbed Browsing** — Open multiple pages in separate tabs
--  **Navigation Controls** — Back, Forward, Reload
--  **One UI 7 Design** — Clean, minimalist interface
--  **Incognito Mode** — Browse privately
--  **Bookmark Manager** — Save your favorite websites
--  **Voice Search** — Search the web using your voice *(requires microphone)*
--  **History Tracking** — Quickly revisit previously visited websites
--  **Download Manager** — Manage file downloads with ease
--  **Multiple Search Engines** — Google, Bing, DuckDuckGo
+## 📖 Overview
 
+Custom Web Browser is designed to provide a **minimalist**, yet **feature-rich** web browsing experience with a modern interface inspired by **Samsung One UI**.
 
-## 📦 Installation
+---
 
-1️⃣ **Clone the repository:**
+##  Features
+
+-  **Tabbed Browsing** — Open multiple websites in different tabs
+-  **Back / Forward / Reload** — Standard navigation controls
+-  **Custom Homepage** — Set your preferred start page
+-  **Bookmarks** — Save and manage favorite websites
+-  **Download Manager** — Track and manage file downloads
+-  **Incognito Mode** — Private browsing (history not saved)
+-  **Dark Mode** — Switch between light and dark themes
+-  **Custom Search Engines** — Choose between Google, Bing, and DuckDuckGo
+-  **History Management** — View and revisit previously visited websites
+-  **Voice Search** — Search the web using voice input *(requires microphone)*
+
+---
+
+##  Installation
+
+###  Prerequisites
+- Python 3.x
+
+###  Install Dependencies
 ```bash
-git clone https://github.com/Codersfeiwfo/custom_website.git
-cd custom_website
-2️⃣ Install dependencies:
-
+pip install PyQt5 PyQtWebEngine SpeechRecognition PyAudio
+▶ Run the Browser
 bash
 Copy
 Edit
-pip install PyQt5 PyQtWebEngine SpeechRecognition
-3️⃣ Run the browser:
+python main.py
 
+ File Structure
 bash
 Copy
 Edit
-python brow.py
-⚙️ Requirements
-Python 3.8+
+/
+├── main.py          
+├── history.json     
+├── bookmarks.json   
+└── README.md        
+🚧 Future Improvements
+✅ Support for browser extensions
 
-PyQt5
+✅ Advanced history management
 
-PyQtWebEngine
+✅ More customizable themes (One UI 7 inspired)
 
-SpeechRecognition
+✅ Additional search engine options
 
-Microphone (for voice search)
-
-📌 To Do
- Add bookmark management UI
-
- Add light/dark theme toggle
-
- Add favicon support for tabs
-
- Settings page for better customization
+📄 License
+This project is licensed under the MIT License.
